@@ -1,0 +1,171 @@
+
+".civilWin": {
+	layout: 'vertical',
+	backgroundColor: '#f3f3f3',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#topContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'yellow'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#ffffff',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#bottomContainer": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	// backgroundColor: 'red',
+	top: '20dp',
+	layout: 'vertical'
+}
+
+"#t": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+
+"#long": {
+	text: '\n40 years of consecutive war has demolished Afghanistan’s social, cultural, political and economic infrastructures and foundations. Access to education for girls, watching TVs and playing songs had become unreachable desire for Afghan people. After Taliban regime collapsed in Sep 2001 and the attention of international communities focused on development of this country. Soon, Afghanistan turned to its flourish point and democracy system has placed based on the country constitution law. Like the other modern countries, civil society needs to be formed vigorously to fulfill government luck at grassroot communities and ultimately be as bridge in between marginalized people and government. Luck of institutionalized CSOs were strongly felt in the country and the government were distinctly busy in forming the country in the first 5 years after the collapse of Taliban regime. To that point from the very beginning of organization establishment in 2002, WASSA focused to strengthening the capacity of civil society organizations, create linkages and build networks among them to monitor government services, denouncing corruption and its factors, giving voice to marginalize women and to advocate women rights. WASSA believes the more institutionalized CSOs operates in a society, the less women, girl and children will be victimized of violence, extremism, old traditional and patriarchal in Afghanistan.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long2": {
+	text: '\nCenter for Civil Society Empowerment (CCSE) established in 2003 to empower the role of civil society at south west zone provinces, provide technical support to develop their internal & external policies and procedures. And also fund them through small grants to practice implementation on the field by counterpart international support.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long3": {
+	text: '\nSo far, WASSA had built the capacity of 55 civil society organizations (CSOs) from southwest zone provinces under I-PACS umbrella through establishment of a strong CSO network, provided support for individuals, communities, and institutions through access to partnership, knowledge and tools in order to build vibrant and sustainable civil societies, based upon individual initiative, civic consciousness and participation. Our key practice areas include institutional development (providing technical assistant to CSOs), building the capacity of civil society representatives through organizing workshops on different aspects of advocacy, community mobilization and conflict prevention, mitigation and resolution.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long4": {
+	text: '\nThe center for civil society empowerment technically supported by USAID and its partner Counterpart International through 8-year program entitled “Initiative to Promote Afghan Civil Society” I-PACS.  WASSA functioned as Civil Society Support Center (CSSC) in the first phase of the program (I-PACS I) and promoted to Intermediate Support Organization (ISO), in the second phase (I-PACS II) and finally WASSA became the responsible organization at southwest zone of Afghanistan that were consists of 5 provinces Herat, Farah, Ghor, Badghis and Nimrooz.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long5": {
+	text: '\nAs result of providing capacity building programs for 55 civil society organizations since the beginning of the program, WASSA was able to begin the implementation of joint projects with four selected CSOs in the Western Region since 8th April 2009. The project overall objectives were providing civic education program for election through financial support of STEP / USAID (Support To the Electoral Process). The four selected CSOs were responsible to report their financial and program progress to WASSA on a regular basis, then WASSA as lead partner manage their reports and cascade to donor agency.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long6": {
+	text: '\nSupport to The Electoral Process (STEP) project was one of WASSA’s biggest program that were started in 2009 with its major objective of raising awareness among 336000 direct beneficiaries and various basic civil affairs that included Islam and Democracy, National Assembly (Parliament), the Executive Power (The Government), Judiciary Power, Elections, Women and Civil Society. WASSA successfully implemented the STEP project in 5 western provinces including 16 districts for 3 years 2009, 2010 and 2011.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long7": {
+	text: '\nAfter I-PACS program completion, WASSA started another 5 years program “Afghan Civic Engagement Program” with Counterpart-international to continue its technical support for the grassroot civil society at west zone provinces. The program particularly focused on the following major topics “democracy, good governance, election, civic education, role of media and women/girl right” which enable grass root civil society to practice civic engagement interventions.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long8": {
+	text: '\nWASSA is still continuing its technical support to CSOs at western zone provinces through international community and build their organization system to be more institutionalized and developed.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#underTop2": {
+	height: '5%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}

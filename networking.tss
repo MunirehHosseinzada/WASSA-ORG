@@ -1,0 +1,166 @@
+
+".myWin": {
+	layout: 'vertical',
+	backgroundColor: '#f3f3f3',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#topContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'yellow'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#ffffff',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+".longs": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%'	
+}
+
+"#long1": {
+	text: '\nWASSA is currently leading the following three networks:\n',
+}
+
+"#long2": {
+	text: '1. Defending Women Right Civil Network (Consist of 30 women civil activist)\n',
+	font: {
+		fontWeight: 'bold'
+	}
+}
+
+"#long3": {
+	text: 'Defending women right civil network was established in 2013 by WASSA under center for legal and social protection. The members of this network are mostly young women civil activists who are recent university graduates and emerge leaders. They meet each other mostly to conduct on the ground assessment to identify women needs and priorities and then addressed them for parliament members, ministers and policy makers. WASSA support this network with financial support of CAID for their national advocacy trip.\n ',
+}
+
+"#long4": {
+	text: '2. Peace Volunteer Network (15 members from 5 districts and Herat city)',
+	font: {
+		fontWeight: 'bold'
+	}
+}
+
+"#long5": {
+	text: 'The network was established in 2010 under center for conflict resolution and peace building. It has 15 members which are mostly the elders, key decision makers and leader of tribes from 5 western district of Herat province. WASSA has built their capacity on conflict resolution and peace building, advocacy, mediation, leadership and management to bring peace between tribes’ conflict at their areas. The alternative goal behind establishing this network was to connect 5 western districts to each-other for reduce level of conflict among tribes and districts.\nThey have been officially introduced to the district governors and department of justice in Herat and have a key role in solving family and local conflicts in their districts.\n',
+}
+
+"#long6": {
+	text: '3. Advocacy Network of Civil Society Organizations (Consist of 20 CSOs)\n',
+	font: {
+		fontWeight: 'bold'
+	}
+}
+
+"#long7": {
+	text: 'The advocacy network of civil society organizations was established in 2008 under center for civil society empowerment of WASSA. The aim of this network is to advocate human/women rights, address community needs to policy makers and be the voice Herat community. Their approaches to meet each other mostly at monthly bases to talk and list communities’ problems and then to addressed them to governmental authorities, line ministries and policy makers at senate. WASSA support their national financial trips though counterpart international under Initiative to Promote Afghan Civil Society program (I-PACS) and Afghan Civil Engagement Program (ACEP)\n',
+}
+
+"#myChart": {
+	image: '/img/chart.webp',
+	width: '90%',
+	height: Ti.UI.SIZE
+}
+
+"#long8": {
+	text: '\nProgram Model\n',
+	font: {
+		fontWeight: 'bold'
+	}
+}
+
+"#long9": {
+	text: 'WASSA is working on 3-9-year program with different International organizations on advocacy and civil society centers.\nWASSA design the project based-on undertaking community need assessment using appreciative community appraisal and planning. Prioritizing problem with the help of locals and develop project proposal for funding.\n',
+}
+
+"#long10": {
+	text: 'WASSA Structure\n',
+	font: {
+		fontWeight: 'bold'
+	}
+}
+"#long11": {
+	text: 'WASSA has advisory board including nine members from different government and non-governmental organizations.\nWASSA founder and chair person is Nilofar Sakhi who is based in Kabul and helps the organization in terms of external relation, fundraising and organization representation.\nWASSA top management is led by Said Wase Sayedi as Executive Director of organization and there are three centers as indicated in home page.\n',
+}
+"#long12": {
+	text: 'WASSA Career and supporters\n',
+	font: {
+		fontWeight: 'bold'
+	}
+}
+"#long13": {
+	text: 'Since its birth back in 2002 as the NGO for the People of Afghanistan, WASSA has offered innovative social, legal and development assistance to the community. WASSA since establishment with the assistance of community and applying local resources addressed the needs of the communities for those who were interested to be helped.\nIn early 2003 just after few days from establishment of the organization, International Migration Organization IOM and UNHCR helped WASSA to implement a one year project. Subsequently, the Women Global Fund provided us with initial institutional grant. Having trust on WASSA’s leadership potential provided the ground for WASSA to be recognized as a strong organization advocates for gender equality at the national and international level.\n',
+}
+"#long14": {
+	text: 'During last 16 years, WASSA worked with more than 30 donors as such, United Nation High Commission for Refugees, UNICEF, United Nation World Food Program, Counterpart Int., Christian Aid, National Endowment for Democracy, Open Society Institute, Women Global Fund, Norwegian Church Aid, WAR CHILD UK, Asian Development Bank, United State Agency for International Development, International Office for Migration, Agency Coordination Body for Afghan Relief and Rights and Democracy, Italian cooperation, DAI, democracy International, Promote Musharikat, USAID, Action Aid, European commission, TDH, Internews, AWDP, UNFAM, US Embassy, MMC, World Vision International and DRC international.\n',
+}

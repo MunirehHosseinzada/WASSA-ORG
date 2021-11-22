@@ -1,0 +1,196 @@
+".myWin": {
+	backgroundColor: '#f3f3f3',
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#mySLB": {
+	height: Ti.UI.SIZE,
+	width: Titanium.UI.FILL,
+	showPagingControl: true
+	// backgroundColor: 'red'
+}
+
+".imgContainers": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+".lbls": {
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '20dp',
+		fontWeight: 'bold'
+	},
+	color: '#089ece',
+	left: '12dp',
+	top: '5dp'
+}
+
+"#long": {
+	text: 'Code4Fun is one of UNHCR’s “Youth/Women Empowerment” project component which were started as of October 2017. The students under this component receive coding and web-designing training to develop Mobile Apps based on Afghan society and demands. In this way they can either earn money by selling their Apps to the market or can help people at their community based on the nature of their Apps and its components.\nSo far, the students have developed few applications as samples:\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long2": {
+	text: '1. University Rank App\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long3": {
+	text: 'This Application introduces top 20 Universities in Afghanistan and rank them based on their quality education service delivery. It can help parents to choose good and suitable university for their children’s higher education.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long4": {
+	text: '2. Organizations App\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long5": {
+	text: 'This Application introduces Foreign Organizations like UN and INGO working in Herat Afghanistan (Database is failed with dummy data for now). The student have come with an idea to make a documentary App by introducing foreign organizations mission and vision and their type of services in Herat.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long6": {
+	text: '3. WASSA library App\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long7": {
+	text: 'This application introduces WASSA’s Library for its beneficiaries in Herat. The library has over 5000 books in three languages (Dari/Farsi, Pashto and English) for the use of university and high school students. WASSA library App contained all these books with their category and numbers.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long8": {
+	text: '4. Everyday English Expressions App\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long9": {
+	text: 'This application is developed for learning English Expressions used at daily conversations.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long10": {
+	text: '5. Tailor App\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long11": {
+	text: 'The application is designed only for tailors to make record of their customer’s identity, size and cloths delivery date. In this app their personal data will be saved for once and there will be no need to take their size over and over. It is a good replacement for old traditional where tailors have notebooks to save their customer personal data.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long12": {
+	text: '6. Gas Group App\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long13": {
+	text: 'This application is developed by a group of students in Code4Fun for their own businesses. It saves their customer data for a gas company. Like trucking how long each customer needs to fulfil their capsules where the gas company provide gas timely and broader their services by delivering capsules to customer kitchen.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#appPhoto": {
+	top: '20dp',
+	width: '90%',
+	height: Ti.UI.SIZE,
+	image: '/img/apps.webp'
+}

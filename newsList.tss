@@ -1,0 +1,135 @@
+".myWin": {
+	backgroundColor: '#f3f3f3',
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+".Containers": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	backgroundColor: 'white',
+	top: '20dp',
+	layout: 'vertical'
+}
+
+".imgs": {
+	width: '95%',
+	height: Ti.UI.SIZE,
+	top: '6dp',
+	borderRadius: 2
+}
+
+".lbls": {
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '20dp',
+		fontWeight: 'bold'
+	},
+	color: '#089ece',
+	left: '12dp',
+	top: '5dp'
+}
+
+".dates": {
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '15dp',
+		fontWeight: 'bold'
+	},
+	color: '#383838',
+	left: '15dp',
+	top: '5dp'
+}
+
+".descs": {
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '15dp',
+		// fontWeight: 'bold'
+	},
+	color: '#383838',
+	left: '15dp',
+	top: '5dp'
+}
+
+".space": {
+	height: '5dp',
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent'
+}
+
+"#lastSpace": {
+	height: '10dp',
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#222b34',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}

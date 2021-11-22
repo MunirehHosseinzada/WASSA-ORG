@@ -1,0 +1,40 @@
+<Alloy>
+	<Window class="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<View id='lblsContainer'>
+				<View id="titleContainer">
+					<Label id="leftLbl">Latest\t\t</Label>
+					<Label id="rightLbl">News</Label>
+				</View>
+				<View id="line"></View>
+				<View id="underLine"></View>
+			</View>
+			<CardView class="Containers" onClick="openSaffron">
+				<Label class="dates">May 7, 2018</Label>
+				<ImageView class="imgs" image="/img/saffron.webp"></ImageView>
+				<Label class="lbls">Saffron opening ceremony</Label>
+				<Label class="descs">On 5th November ,2017 WASSA organized an opening ceremony for clean \& dry saffron ’s flowers processing program with...</Label>
+				<View class="space"></View>
+			</CardView>
+			<CardView class="Containers" onClick="openCode4Fun">
+				<Label class="dates">April 24, 2018</Label>
+				<ImageView class="imgs" image="/img/code4fun.webp"></ImageView>
+				<Label class="lbls">Developed Applications by young beneficiaries of Code4Fun Project</Label>
+				<Label class="descs">Code4Fun is one of UNHCR’s “Youth/Women Empowerment” project component which were started as of October 2017...</Label>
+				<View class="space"></View>
+			</CardView>
+			<CardView class="Containers" onClick="openNet">
+				<Label class="dates">April 24, 2018</Label>
+				<ImageView class="imgs" image="/img/icdl.webp"></ImageView>
+				<Label class="lbls">School girl's Graphic Presentation at WASSA women only net Cafe'</Label>
+				<Label class="descs">The Women Only Net Café was inaugurated in 2015 by financial support of UNHCR under Youth/Women Empowerment...</Label>
+				<View class="space"></View>
+			</CardView>
+			<View id="lastSpace"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

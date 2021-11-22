@@ -1,0 +1,133 @@
+
+".myWin": {
+	layout: 'vertical',
+	backgroundColor: '#f3f3f3',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#topContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'yellow'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#ffffff',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#hisTitle": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '25dp'
+	},
+	left: '20dp',
+	top: '20dp'
+}
+
+".longs": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%'	
+}
+
+"#long1": {
+	text: '\n- To promote women rights at grassroot communities for their equal participation in socio-economic sector of the country.\n',
+}
+
+"#long2": {
+	text: '- To give voice for the marginalized women/girl by influencing key decision makers at policy level through advocacy intervention.\n',
+}
+
+"#long3": {
+	text: '- To empower the role of youth, girl and women at their communities to stand for their rights and be self-dependent.\n',
+}
+
+"#long4": {
+	text: '- To increase social and legal capacity of all Afghans.\n',
+}
+
+"#long5": {
+	text: '- To increase access to civic education income generation and agriculture programs for all Afghans.\n',
+}
+
+"#long6": {
+	text: '- To influence Afghanistan’s judiciary system for stabilizing positive changes for all Afghans.\n',
+}
+
+"#long7": {
+	text: '- To build on the peace culture in Afghanistan through conflict resolution programs and youth volunteerism.\n',
+}
+
+"#long8": {
+	text: '- To build organizational excellence.',
+}

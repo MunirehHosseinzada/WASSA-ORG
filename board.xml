@@ -1,0 +1,133 @@
+<Alloy>
+	<Window class="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<View id="topContainer">
+				<ImageView image="/img/network.webp" width="Ti.UI.FILL"></ImageView>
+				<View id='lblsContainer'>
+					<View id="titleContainer">
+						<Label id="leftLbl">Our Advisory\t\t</Label>
+						<Label id="rightLbl">Board Members</Label>
+					</View>
+					<View id="line"></View>
+					<View id="underLine"></View>
+				</View>
+			</View>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Nilofar-Sakhi.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Nilofar Sakhi</Label>
+					<Label class="positions">Founder and Chairperson of WASSA</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="niloLI">
+							<Label class="linkedIn">in</Label>
+						</View>
+						<View class="linkCont" onClick="niloFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Aziz-Rafiee.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Eng. Aziz Rafiee</Label>
+					<Label class="positions">Executive Director Afghanistan Civil Society Forum ACSFo</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="azizLI">
+							<Label class="linkedIn">in</Label>
+						</View>
+						<View class="linkCont" onClick="azizFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Suraya-Sobhrang.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Dr. Suraya Sobhrang</Label>
+					<Label class="positions">Afghanistan Human Right Commissionaire</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="sorayaLI">
+							<Label class="linkedIn">in</Label>
+						</View>
+						<View class="linkCont" onClick="sorayaFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Sayed-Abdul-Qader-Rahimi.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Said Abdul Qader Rahimi</Label>
+					<Label class="positions">Area Manager of Independent Human Right Commission</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="qaderLI">
+							<Label class="linkedIn">in</Label>
+						</View>
+						<View class="linkCont" onClick="qaderFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Sakina-Hossaini.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Sakina Hossaini</Label>
+					<Label class="positions">Member of Herat Provincial Shura Prof</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="sakinehFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Ghulam-Sakhi-Khatibi.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Ghulam Sakhi Khatibi</Label>
+					<Label class="positions">Director of External Communication at Herat Foreign</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="khatibiFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Tahera-Popal.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Tahera Popal</Label>
+					<Label class="positions">Women civil activist and gender specialist of UNAMA</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="taherehLI">
+							<Label class="linkedIn">in</Label>
+						</View>
+						<View class="linkCont" onClick="taherehFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<CardView class="cardViews">
+				<ImageView class="imgs" image="/img/Enayatullah-Enayat.webp"></ImageView>
+				<View class="rightOne">
+					<Label class="name">Enayatullah Enayat</Label>
+					<Label class="positions">University Professor</Label>
+					<View class="iconsContainer">
+						<View class="linkCont" onClick="enayatFB">
+							<Label class="facebook">f</Label>
+						</View>
+					</View>
+				</View>
+			</CardView>
+			<View height="20dp" width="Ti.UI.FILL" backgroundColor="transparent"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

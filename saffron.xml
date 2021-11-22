@@ -1,0 +1,23 @@
+<Alloy>
+	<Window class="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<ScrollableView id="mySLB">
+				<View class="imgContainers">
+					<ImageView image="/img/saffron.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/saffron2.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/saffron3.webp"></ImageView>
+				</View>
+			</ScrollableView>
+			<Label class="lbls">Saffron opening ceremony</Label>
+			<Label class="descLbl"></Label>
+		</ScrollView>
+	</Window>
+</Alloy>

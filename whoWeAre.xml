@@ -1,0 +1,60 @@
+<Alloy>
+	<Window class="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<View id='lblsContainer'>
+				<View id="titleContainer">
+					<Label id="leftLbl">About\t\t</Label>
+					<Label id="rightLbl">WASSA</Label>
+				</View>
+				<View id="line"></View>
+				<View id="underLine"></View>
+			</View>
+			<View id="categoriesContainer">
+				<View class="contianers" left="0dp" onClick="historyOpen">
+					<Label class="categoriesLbls">History</Label>
+					<View class="categoriesV">
+						<Label class="iconsLbls">history</Label>
+					</View>
+
+				</View>
+				<View class="contianers" onClick="boardOpen">
+					<Label class="categoriesLbls">Advisory Board</Label>
+					<View class="categoriesV">
+						<Label class="iconsLbls">person_pin</Label>
+					</View>
+
+				</View>
+				<View class="contianers" onClick="objectivesOpen">
+					<Label class="categoriesLbls">Objectives</Label>
+					<View class="categoriesV">
+						<Label class="iconsLbls">wifi_tethering</Label>
+					</View>
+
+				</View>
+				<View class="contianers" onClick="networkingOpen">
+					<Label class="categoriesLbls">Networking</Label>
+					<View class="categoriesV">
+						<Label class="iconsLbls">group_work</Label>
+					</View>
+
+				</View>
+			</View>
+			<View height="Ti.UI.SIZE" width="90%" layout="vertical">
+				<Label id="long"></Label>
+				<Label id="long2"></Label>
+				<Label id="long3"></Label>
+				<Label id="long4"></Label>
+				<Label id="long5"></Label>
+				<Label id="long6"></Label>
+				<Label id="long7"></Label>
+				<Label id="long8"></Label>
+				<Label id="long9"></Label>
+			</View>
+			<View height="10dp" width="Ti.UI.FILL" backgroundColor="transparent"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

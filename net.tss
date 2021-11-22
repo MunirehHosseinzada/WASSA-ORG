@@ -1,0 +1,95 @@
+".myWin": {
+	backgroundColor: '#f3f3f3',
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#mySLB": {
+	height: Ti.UI.SIZE,
+	width: Titanium.UI.FILL,
+	showPagingControl: true
+	// backgroundColor: 'red'
+}
+
+".imgContainers": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+".lbls": {
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '20dp',
+		fontWeight: 'bold'
+	},
+	color: '#089ece',
+	left: '12dp',
+	top: '5dp'
+}
+
+"#long": {
+	text: 'The Women Only Net Café was inaugurated in 2015 by financial support of UNHCR under Youth/Women Empowerment project. In this net café, women and girls can have free access to internet, 5000 books, ICDL/graphic classes and repair their computers technically the idea of establishing the women only net café comes when few girl’s passwords were hacked in public café net and were treated for sexual abuse.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long2": {
+	text: 'In sequel to the following of the project activities, on 17th April 2018, 11 students who had finished their Basic Graphic Class in WASSA presented their final graphic projects with presence of UNHCR representatives.  \n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#long3": {
+	text: 'Participants of basic graphic classes were mostly high school girls and IDP/returnees. The aim of graphic project is to ease teaching methodology at primary schools and kindergartens. The animated cartoon characters designed with colorful backgrounds and shapes used in this project can help Afghan children to comprehend Dari alphabets and numbers more easily.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}
+
+"#picsContainer": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	layout: 'horizontal'
+}
+
+".graphicPhotos": {
+	height: Ti.UI.SIZE,
+	width: '45%',
+	top: '12dp'
+}

@@ -1,0 +1,132 @@
+
+".civilWin": {
+	layout: 'vertical',
+	backgroundColor: '#f3f3f3',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#topContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'yellow'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#ffffff',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#bottomContainer": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	// backgroundColor: 'red',
+	top: '20dp',
+	layout: 'vertical'
+}
+
+"#t": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+
+"#long": {
+	text: '\nAfghanistan has been through decades of war where not only the infrastructure has been damaged and affected but also the entire social fabric has deteriorated. During this period of time women have been the most vulnerable part of the society which in most areas of Afghanistan, basic support services are unavailable for survivors of violence against women. Women seeking justice often face discrimination and criminalization from family and local authorities and are forced to return to the setting of domestic violence without positive change within the family or protection from future abuse. Women and girls lack adequate protection in marriage and family life. These phenomena caused women/girl to be suffered from severe psychological stress, deprived from education and broken down their confidence for social interactions and finally force them to be excluded and isolated.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long2": {
+	text: '\nFor this purpose, WASSA established Center for Legal and Social Protection (CLSP) in 2005 to deliver capacity building services for women and men at their community through different capacity building approaches, community mobilization, awareness campaign, volunteerism, legal and psychosocial counselling and livelihood projects. ',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long3": {
+	text: '\nApart from above services, in June 2008, WASSA established its Legal Aid Consultation and Services Clinic (LACSC) by Right and Democracy Organization fund to provide legal and psychosocial free counselling. The goal of this LACSC was to protect women right and pave the way to have access to justice. The LACSC was specifically working on family law in Herat province and it was introduced among the community during the first year of establishment.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+
+"#underTop2": {
+	height: '5%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}

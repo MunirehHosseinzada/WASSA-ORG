@@ -1,0 +1,191 @@
+
+".civilWin": {
+	layout: 'vertical',
+	backgroundColor: '#f3f3f3',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#topContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'yellow'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#ffffff',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '26dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '26dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#bottomContainer": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	// backgroundColor: 'red',
+	top: '20dp',
+	layout: 'vertical'
+}
+
+"#t": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+
+"#long": {
+	text: 'The Women Activities & Social Services Association (WASSA) was established in 2002 in Afghanistan, as the first independent women’s organization in Herat province, committed to seeking ways for women empowerment in Afghanistan. WASSA aims to promote women equal participation in socio-economic sectors of the country. WASSA works directly with communities in order to bring change in social attitude of the community.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long2": {
+	text: 'Vision Statement:\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long3": {
+	text: 'WASSA is an influential organization working to empower civil society, bringing about peace, equality and an economic independence for all Afghans.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long4": {
+	text: 'Mission Statement:\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long5": {
+	text: 'WASSA facilitates social improvement for all people in Afghanistan through strengthening civil society, gender mainstreaming and promoting conflict resolution.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long6": {
+	text: 'Values Statement:\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long7": {
+	text: 'WASSA is an honest, transparent organization committed to acceptance without prejudice of gender, religious background or ethnicity to enable respect for all.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long8": {
+	text: 'COMPETITIVE ADVANTAGE STATEMENT:\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long9": {
+	text: 'WASSA through its extensive organizational experience has demonstrated the transparent, accountable, timely and effective implementation of all its programs utilizing community ownership and participating mechanisms.\n',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#underTop2": {
+	height: '5%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}

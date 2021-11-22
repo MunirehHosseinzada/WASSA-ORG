@@ -1,0 +1,29 @@
+<Alloy>
+	<Window class="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<View id="topContainer">
+				<ImageView image="/img/history.webp" width="Ti.UI.FILL"></ImageView>
+				<View id='lblsContainer'>
+					<View id="titleContainer">
+						<Label id="leftLbl">Our\t\t</Label>
+						<Label id="rightLbl">History</Label>
+					</View>
+					<View id="line"></View>
+					<View id="underLine"></View>
+				</View>
+			</View>
+			<Label id="hisTitle">History</Label>
+			<Label id="long1" class="longs"></Label>
+			<Label id="long2" class="longs"></Label>
+			<Label id="long3" class="longs"></Label>
+			<Label id="long4" class="longs"></Label>
+			<Label id="long5" class="longs"></Label>
+			<Label id="long6" class="longs"></Label>
+			<View height="20dp" width="Ti.UI.FILL" backgroundColor="transparent"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

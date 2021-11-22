@@ -1,0 +1,202 @@
+".myWin": {
+	backgroundColor: '#f3f3f3',
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#222b34',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#long": {
+	text: '\nThe center for Conflict Resolution and Peace building (CCRP) at WASSA started its initial activities in 2004 and officially inaugurated in 2008. The purpose for establishment of this center was based on the fact that peace is not an event; it is a process which needs dedication, commitment and knowledge. The center goal is to build local capacity towards establishing long term peace and stability in Afghanistan. For reaching this aim, it engages the following core activities; research, capacity building, education and exchange program. CCRP works with practitioners and scholars to enhance the understanding of peace and conflict resolution\nUnder this section WASSA is implementing a on one-year project on Trauma healing for 45 vulnerable women from 5 districts of Herat province who suffering from domestic violence or they are the victims of the decades of war in Afghanistan..',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long2": {
+	text: '\n1. Research:',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long3": {
+	text: '\nResearch on conflict will create initiative for better understanding of conflict and mediation and resolving. The center will conduct researches on conflict analysis in-order to give clear picture for peace activist and fulfill gaps with existent opportunities. Mostly the research opportunities on conflict resolution will be done by cooperation of university students and academics.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long4": {
+	text: '\n2. Capacity Building:',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long5": {
+	text: '\nBuilding capacity in conflict management can play a major role in preventing and ameliorating conflict by developing individual and institutional skills that can promote a culture of constructive problem solving, cooperative negotiation, and dialogue and dispute resolution throughout society. The center will provide capacity building training to civil society activisms, and local decision-making authorities.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long6": {
+	text: '\n3. Education:',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long7": {
+	text: '\nThe vital objectives of education are to promote peace building and conflict resolution trainings and cross-cultural conflict resolution training in schools and universities and involve the academics in broad discussion about the conflict resolution strategies.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+"#long8": {
+	text: '\n4. Exchange Program:',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '16dp'
+	},
+	left: '0dp'
+}
+
+"#long9": {
+	text: '\nThrough exchange program we network with conflict resolution centers around the world for cultural exchange trips. This program is to provide our beneficiaries a broader worldview regarding peace and conflict resolution.\nWASSA has worked with United States Institute of Peace (USIP), Mennonite Center Committee (MCC) and Trocaire (a peace aimed organization in Netherland) so far…',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	}
+}
+
+
+"#categoriesContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'yellow',
+	layout: 'horizontal'
+}
+
+".contianers": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'green',
+	top: '15dp',
+	// borderColor: 'red',
+	layout: 'vertical',
+	left: '20dp',
+}
+
+".categoriesV": {
+	height: '50dp',
+	width: '50dp',
+	borderRadius: 25,
+	backgroundColor: '#ffffff',
+	borderColor: '#bfbfbf',
+	top: '10dp'
+}
+
+".iconsLbls": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '30dp'
+	},
+	color: '#089ece'
+}
+
+".categoriesLbls": {
+	color: '#089ece',
+	top: '5dp',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontWeight: 'bold'
+	}
+}

@@ -1,0 +1,36 @@
+<Alloy>
+	<Window class="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<ScrollableView id="mySLB">
+				<View class="imgContainers">
+					<ImageView image="/img/code4fun.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/code4fun2.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/code4fun3.webp"></ImageView>
+				</View>
+			</ScrollableView>
+			<Label class="lbls">Developed Applications by young beneficiaries of Code4Fun Project</Label>
+			<Label id="long"></Label>
+			<Label id="long2"></Label>
+			<Label id="long3"></Label>
+			<Label id="long4"></Label>
+			<Label id="long5"></Label>
+			<Label id="long6"></Label>
+			<Label id="long7"></Label>
+			<Label id="long8"></Label>
+			<Label id="long9"></Label>
+			<Label id="long10"></Label>
+			<Label id="long11"></Label>
+			<Label id="long12"></Label>
+			<Label id="long13"></Label>
+			<ImageView id="appPhoto"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>

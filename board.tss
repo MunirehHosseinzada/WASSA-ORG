@@ -1,0 +1,152 @@
+
+".myWin": {
+	layout: 'vertical',
+	backgroundColor: '#f3f3f3',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#topContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'yellow'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#ffffff',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+".cardViews": {
+	width: '90%',
+	height: '100dp',
+	layout: 'horizontal',
+	backgroundColor: 'white',
+	top: '15dp'
+}
+
+".rightOne": {
+	height: Ti.UI.FILL,
+	layout: 'vertical'
+	// backgroundColor: 'yellow'
+}
+
+".imgs": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.SIZE
+}
+
+".name": {
+	font: {
+		fontSize: '17dp',
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	color: '#089ece',
+	top: '6dp',
+	left: '6dp'
+}
+
+".positions": {
+	font: {
+		fontSize: '15dp',
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF'
+	},
+	color: 'gray',
+	top: '6dp',
+	left: '6dp'
+}
+
+".iconsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	layout: 'horizontal'
+}
+
+".linkedIn": {
+	font: {
+		fontSize: '12dp',
+		fontWeight: 'bold'
+	},
+	color: 'white'	
+}
+
+".linkCont": {
+	width: '15dp',
+	height: '15dp',
+	top: '5dp',
+	left: '10dp',
+	backgroundColor: 'gray',
+	borderRadius: 3	
+}
+
+".facebook": {
+	font: {
+		fontSize: '14dp',
+		fontWeight: 'bold'
+	},
+	color: 'white'	
+}

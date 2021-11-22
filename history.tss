@@ -1,0 +1,125 @@
+
+".myWin": {
+	layout: 'vertical',
+	backgroundColor: '#f3f3f3',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#topContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'yellow'
+}
+
+"#lblsContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical'
+}
+
+///////////////////////////////////////////////////////////////
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#ffffff',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#hisTitle": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold',
+		fontSize: '25dp'
+	},
+	left: '20dp',
+	top: '20dp'
+}
+
+".longs": {
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%'	
+}
+
+"#long1": {
+	text: '\nWASSA, since its birth as the NGO for the People of Afghanistan, established in (2002), has offered innovative social, legal and development assistance to the community. WASSA since establishment with the assistance of community and applying local resources addressed the needs of the communities for those who were interested to help.\nAfghan women are real people, with needs and strength.\nTheir needs are multifaceted. As mothers, wives, and daughters, their needs extend beyond the immediate environment. Their marginal circumstances demand negotiation with those in power to allow them to triumph over the existing barriers against empowerment.\n',
+}
+
+"#long2": {
+	text: 'In short, Afghan women are not the problem; the problems are barriers and hurdles that prevent them from coping with their circumstances. These obstacles needed and yet needs to be recognized, reformed or removed. It is in this arena that we (the experts and NGOs) can work with Afghan women.\nAs facilitators, we can provide them tools to make it possible for them to revitalize their functional roles within Afghan society.\nThe recent draconian gender policies of the Taliban have colored perceptions regarding female access to education in Afghanistan, while literacy level was typically worthless.',
+}
+
+"#long3": {
+	text: 'Subsequently, the Mujahedeen civil conflict of 1992-96 and the Taliban’s prohibition of schooling for girls and of employment for women as teachers resulted in a dramatic decline in education for girls as well as boys.\nAforesaid scenario and other social problems, barriers existed in our community motivated Madam Nilofar Sakhi and some other like-country and pro ensuring human rights advocates to take steps toward establishing the organization.\nWorking and take every solicit action toward ensuring gender equality in every aspects of life in Afghanistan and participate in the movement toward a world free of any kind of discrimination at all is the goal of organization founding people.',
+}
+
+"#long4": {
+	text: 'In early December 2002 just after few days from establishment of the organization, International Migration Organization and UNHCR helped WASSA to implement a project.\nSubsequently, the Women Global Fund provided us with initial institutional grant. Having trust on WASSA’s leadership potential provided the ground for WASSA to be recognized as a strong organization advocates for gender equality at the national and international level.',
+}
+
+"#long5": {
+	text: 'During last sixteen years WASSA has worked with the following donors, UNHCR, UNIFEM, UNWFP, UNICEF, USAID, Counterpart International, CAID, Mennonite Central Committee, Internews, Action Aid Afghanistan, Tirrede Hommes Germany, NED, OSA, Women Global Fund, NCA, WAR CHILD, Asian Development Bank, IOM, ACBAR, Rights and Democracy, Linda Foundation, USAIP, Trocaire, British Consulate (Tawanmandi) and US Consulate.\n',
+}
+
+"#long6": {
+	text: 'WASSA is part of some networks as per; Afghan Civil Society Forum (ACSF), Women Living under Moslem Law (WLUML), Women in Persian Speaking Country (WPSC), We Can Campaign and Afghan Women Network (AWN).\nWe are active in five provinces of Afghanistan includes; Herat, Badghis, Ghor, Farah and Nimrooz.',
+}

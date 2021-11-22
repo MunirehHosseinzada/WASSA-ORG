@@ -1,0 +1,63 @@
+".myWin": {
+	backgroundColor: '#f3f3f3',
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#mySLB": {
+	height: Ti.UI.SIZE,
+	width: Titanium.UI.FILL,
+	showPagingControl: true
+	// backgroundColor: 'red'
+}
+
+".imgContainers": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+".lbls": {
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '20dp',
+		fontWeight: 'bold'
+	},
+	color: '#089ece',
+	left: '12dp',
+	top: '5dp'
+}
+
+".descLbl": {
+	text: 'On 5th November ,2017 WASSA organized an opening ceremony for clean & dry saffron ’s flowers processing program with participation of district authorities, women Shura, and beneficiaries. WASSA identified 20 women victims of violence through RCV project from 17 villages of Ghoriyan district in-order to support them financially through Saffron processing program.\nThe processing of clean & dry saffron ‘s flower was successful. And the produced products were sold in the market in profit which gives them motivation to start their next round of processing.',
+	color: 'black',
+	font: {
+		fontFamily: 'ERASLGHT.TTF'
+	},
+	width: '90%',
+	top: '15dp'
+}

@@ -1,0 +1,143 @@
+<Alloy>
+	<Window id="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<ScrollableView id="mySLB">
+				<View class="imgContainers">
+					<ImageView image="/img/one.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/two.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/Three.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/four.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/five.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/six.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/seven.webp"></ImageView>
+				</View>
+			</ScrollableView>
+			<View id="sologanContainer">
+				<Label id="sologan">Let's Ensure Women Participation in Peace and Development</Label>
+			</View>
+			<View id="OurCentersContainer">
+				<View id="titleContainer">
+					<Label id="leftLbl">Our\t\t</Label>
+					<Label id="rightLbl">Centers</Label>
+				</View>
+				<View id="line"></View>
+				<View id="underLine"></View>
+				<View id="outerContainer">
+					<ScrollableView id="centersSLB" onScroll="sayHi">
+						<View class="civilC" onClick="civilClicked">
+							<ImageView id="civilImg"></ImageView>
+							<Label class="civilL">Center for Civil Society Empoverment</Label>
+						</View>
+						<View class="civilC" onClick="legalClicked">
+							<ImageView id="legalImg"></ImageView>
+							<Label class="civilL">Center for Legal and Social Protection</Label>
+						</View>
+						<View class="civilC" onClick="conflictClicked">
+							<ImageView id="conflictImg"></ImageView>
+							<Label class="civilL">Center for Conflict Resolution \& Peace Builing</Label>
+						</View>
+					</ScrollableView>
+					<View id="controlersContainer">
+						<View class="controllers" id="fc" backgroundColor="#089ece" onClick="goToOne"></View>
+						<View class="controllers" id="sc" onClick="goToTwo"></View>
+						<View class="controllers" id="tc" onClick="goToThree"></View>
+					</View>
+				</View>
+			</View>
+			<View id="underCenterView"></View>
+			<View id="categoriesContainer">
+				<View class="contianers" left="0dp">
+					<View class="categoriesV" onClick="openNewsList">
+						<Label class="iconsLbls">local_library</Label>
+					</View>
+					<Label class="categoriesLbls">Latest News</Label>
+				</View>
+				<View class="contianers">
+					<View class="categoriesV" onClick="openWhoWeAre">
+						<Label class="iconsLbls">supervisor_account</Label>
+					</View>
+					<Label class="categoriesLbls">Who We Are?</Label>
+				</View>
+				<View class="contianers">
+					<View class="categoriesV" onClick="openPublication">
+						<Label class="iconsLbls">book</Label>
+					</View>
+					<Label class="categoriesLbls">Publications</Label>
+				</View>
+			</View>
+			<View id="underCategories"></View>
+			<View id="donnersContainer">
+				<View id="titleContainer2">
+					<Label id="leftLbl2">Our\t\t</Label>
+					<Label id="rightLbl2">Donners</Label>
+				</View>
+				<View id="line2"></View>
+				<View id="underLine2"></View>
+				<ImageView id="donnersImg"></ImageView>
+			</View>
+			<View id="underDonners"></View>
+			<View id="testimonialsC">
+				<ScrollableView id="testimoSLV" onScroll="secondSayHi">
+					<View layout="vertical">
+						<View class='ownerV'>
+							<View class="photoV">
+								<ImageView class="ownersP" image="/img/Nilofar-Sakhi2.webp"></ImageView>
+							</View>
+							<View class="ownerN">
+								<Label class="names">Nilofar Sakhi</Label>
+								<Label class="positions">WASSA Founder and Chairperson's Message</Label>
+							</View>
+						</View>
+						<Label class="firstTestimo">Every cultural shift begins with one person making single positive change wehn a group shifts together we become a movement. We believe the mechanism for these changes exist whithin WASSA. We know threre is a long way to go but we believe that WASSA has the talent, the vision and the drive to participate in this movement and can contribute in consolidation of peace and democracy in Afghanistan.</Label>
+					</View>
+					<View layout="vertical">
+						<View class='ownerV'>
+							<View class="photoV">
+								<ImageView class="ownersP" image="/img/Dr.-Suraya-Sobhrang.webp"></ImageView>
+							</View>
+							<View class="ownerN">
+								<Label class="names">Dr. Suraya Sobhrang</Label>
+								<Label class="positions">Commissionare/AIHRC</Label>
+							</View>
+						</View>
+						<Label class="firstTestimo">WASSA is a constituted with the sole objective of identifying violation of women's human rights in all spheres of life and work towards rasing awareness on the quality rights of women by conducting fact finding mission, writing and politicizing reports, briefing papers, letters, press release etc. It also reviews the constitutional and legal safeguards for women and recommends remedial legislative measures as well as supporting law reform process.</Label>
+					</View>
+					<View layout="vertical">
+						<View class='ownerV'>
+							<View class="photoV">
+								<ImageView class="ownersP" image="/img/Eng.-Aziz-Rafeiee.webp"></ImageView>
+							</View>
+							<View class="ownerN">
+								<Label class="names">Eng. Aziz Rafeiee</Label>
+								<Label class="positions">Head of ACSF</Label>
+							</View>
+						</View>
+						<Label class="firstTestimo">WASSA facilitate the structural and widespread advocacy for women to raise their awareness, build thier skills individually and collectively for obtaining leadership role.</Label>
+					</View>
+				</ScrollableView>
+				<View id="sControlersC">
+					<View class="sControlers" id="sfc" backgroundColor="#8a8a8a" onClick="sGoToOne"></View>
+					<View class="sControlers" id="ssc" onClick="sGoToTwo"></View>
+					<View class="sControlers" id="stc" onClick="sGoToThree"></View>
+				</View>
+			</View>
+			<View id="underTestimon"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

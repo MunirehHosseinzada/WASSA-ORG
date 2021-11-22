@@ -1,0 +1,32 @@
+<Alloy>
+	<Window class="myWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<ScrollableView id="mySLB">
+				<View class="imgContainers">
+					<ImageView image="/img/icdl.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/icdl2.webp"></ImageView>
+				</View>
+				<View class="imgContainers">
+					<ImageView image="/img/icdl3.webp"></ImageView>
+				</View>
+			</ScrollableView>
+			<Label class="lbls">Schoold girl's Graphic Presentation at WASSA Women Only Net Cafe</Label>
+			<Label id="long"></Label>
+			<Label id="long2"></Label>
+			<Label id="long3"></Label>
+			<View id="picsContainer">
+				<ImageView class="graphicPhotos" image="/img/graphic2.webp"></ImageView>
+				<ImageView class="graphicPhotos" image="/img/graphic3.webp" left='8%'></ImageView>
+				<ImageView class="graphicPhotos" image="/img/graphic4.webp"></ImageView>
+				<ImageView class="graphicPhotos" image="/img/graphic1.webp" left='8%'></ImageView>
+			</View>
+			<View height="10dp" width="100%" backgroundColor="transparent"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,380 @@
+"#myWin": {
+	backgroundColor: '#f6f6f6',
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+"#topView": {
+	image: 'img/WASSA_LOGO.webp',
+	height: '13%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#logoImg": {
+	image: '/img/WASSA_LOGO.webp',
+	top: '5dp',
+	left: '10dp'
+}
+
+"#underTop": {
+	height: '1%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff'
+}
+
+"#SView": {
+	height: '86%',
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	layout: 'vertical'
+}
+
+"#mySLB": {
+	height: Ti.UI.SIZE,
+	width: Titanium.UI.FILL,
+	showPagingControl: true
+	// backgroundColor: 'red'
+}
+
+".imgContainers": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+"#sologanContainer": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	// backgroundColor: 'green',
+	top: '20dp'
+}
+
+"#sologan": {
+	textAlign: 'center',
+	color: '#089ece',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '18dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#OurCentersContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: '#ffffff',
+	layout: 'vertical',
+	top: '20dp'
+}
+
+"#titleContainer": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl": {
+	color: '#222b34',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#outerContainer": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	layout: 'horizontal',
+	// backgroundColor: 'yellow',
+	top: '10dp'
+}
+
+"#centersSLB": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	// showPagingControl: true,
+	// backgroundColor: 'green'
+}
+
+".civilC": {
+	height: Titanium.UI.SIZE,
+	width: Ti.UI.FILL,
+	// backgroundColor: 'red',
+	layout: 'vertical'
+}
+
+"#civilImg": {
+	image: '/img/civil.webp',
+	borderRadius: 10,
+	height: Ti.UI.SIZE
+}
+
+"#legalImg": {
+	image: '/img/legal.webp',
+	borderRadius: 10,
+	height: Ti.UI.SIZE
+}
+
+"#conflictImg": {
+	image: '/img/conflict.webp',
+	borderRadius: 10,
+	height: Ti.UI.SIZE
+}
+
+".civilL": {
+	color: '#222b34',
+	top: '5dp',
+	font: {
+		fontWeight: 'bold'
+	},
+	textAlign: 'center'
+}
+
+"#controlersContainer": {
+	height: '130dp',
+	width: '10%',
+	// backgroundColor: 'pink',
+	layout: 'vertical'
+}
+
+".controllers": {
+	height: '15dp',
+	width: '15dp',
+	// backgroundColor: 'red',
+	borderRadius: 7.5,
+	borderWidth: '1dp',
+	borderColor: '#089ece',
+	top: '15dp',
+	left: '0dp',
+	}
+	
+"#underCenterView": {
+	backgroundColor: '#ffffff',
+	width: Ti.UI.FILL,
+	height: '10dp'
+}
+
+"#categoriesContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'yellow',
+	layout: 'horizontal'
+}
+
+".contianers": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'green',
+	top: '15dp',
+	// borderColor: 'red',
+	layout: 'vertical',
+	left: '20dp',
+}
+
+".categoriesV": {
+	height: '80dp',
+	width: '80dp',
+	borderRadius: 40,
+	backgroundColor: '#ffffff',
+	borderColor: '#bfbfbf'
+}
+
+".iconsLbls": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '50dp'
+	},
+	color: '#089ece'
+}
+
+".categoriesLbls": {
+	color: '#089ece',
+	top: '5dp',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontWeight: 'bold'
+	}
+}
+
+"#underCategories": {
+	backgroundColor: '#f3f3f3',
+	height: '10dp',
+	width: Ti.UI.FILL
+}
+
+
+"#donnersContainer": {
+	backgroundColor: '#ffffff',
+	height: Ti.UI.SIZE,
+	width: '90%',
+	layout: 'vertical'
+}
+
+"#underDonners": {
+	backgroundColor: '#ffffff',
+	height: '5dp',
+	width: Ti.UI.FILL
+}
+
+"#donnersImg": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	image: '/img/donners.webp',
+	top: '15dp'
+}
+
+"#titleContainer2": {
+	top: '15dp',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent',
+	layout: 'horizontal'
+}
+
+"#leftLbl2": {
+	color: '#222b34',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontSize: '28dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#rightLbl2": {
+	color: '#089ece',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontSize: '28dp',
+		// fontWeight: 'bold'
+	}
+}
+
+"#line2": {
+	backgroundColor: '#089ece',
+	height: '1dp',
+	width: '60%'
+}
+
+"#underLine2": {
+	backgroundColor: '#089ece',
+	height: '2dp',
+	width: '30%'
+}
+
+"#testimonialsC": {
+	backgroundColor: '#f3f3f3',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	layout: 'vertical',
+	top: '30dp'
+}
+
+"#testimoSLV": {
+	height: '250dp',
+	width: '85%',
+	// backgroundColor: 'pink',
+	layout: 'vertical'
+}
+
+".firstTestimo": {
+	textAlign: 'center',
+	color: '#222b34',
+	font: {
+		fontFamily: 'SOURCESANSPRO-EXTRALIGHT.OTF',
+		fontStyle: 'italic'
+	},
+	top: '20dp'
+}
+
+".ownerV": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'yellow',
+	layout: 'horizontal'
+}
+
+".photoV": {
+	height: '40dp',
+	width: '40dp',
+	borderRadius: 20,
+	// backgroundColor: 'red'
+}
+
+".ownersP": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+".ownerN": {
+	height: Ti.UI.SIZE,
+	width: '60%',
+	layout: 'vertical',
+	left: '8dp',
+	// backgroundColor: 'purple'
+}
+
+".names": {
+	color: '#222b34',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		fontWeight: 'bold'
+	},
+	left: '0dp'
+}
+
+".positions": {
+	color: '#757778',
+	font: {
+		fontFamily: 'ERASLGHT.TTF',
+		// fontWeight: 'bold',
+		fontSize: '12dp'
+	},
+	left: '0dp'
+}
+
+"#sControlersC": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'yellow',
+	top: '7dp',
+	layout: 'horizontal'
+}
+
+".sControlers": {
+	height: '10',
+	width: '10',
+	backgroundColor: '#f3f3f3',
+	borderRadius: 5,
+	borderColor: '#8a8a8a',
+	left: '10dp'
+}
+
+"#underTestimon": {
+	height: '10dp',
+	width: Ti.UI.FILL,
+	backgroundColor: 'f3f3f3'
+}

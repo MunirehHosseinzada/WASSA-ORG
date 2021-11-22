@@ -1,0 +1,33 @@
+<Alloy>
+	<Window class="civilWin">
+		<View id="topView">
+			<ImageView id="logoImg"></ImageView>
+		</View>
+		<View id="underTop"></View>
+		<ScrollView id="SView">
+			<View id="topContainer">
+				<ImageView image="/img/darkcivil.webp" width="Ti.UI.FILL"></ImageView>
+				<View id='lblsContainer'>
+					<View id="titleContainer">
+						<Label id="leftLbl">Civil Society\t\t</Label>
+						<Label id="rightLbl">Empowerment</Label>
+					</View>
+					<View id="line"></View>
+					<View id="underLine"></View>
+				</View>
+			</View>
+			<View id="bottomContainer">
+				<Label id="t">Center for Civil Society Empoverment</Label>
+				<Label id="long"></Label>
+				<Label id="long2"></Label>
+				<Label id="long3"></Label>
+				<Label id="long4"></Label>
+				<Label id="long5"></Label>
+				<Label id="long6"></Label>
+				<Label id="long7"></Label>
+				<Label id="long8"></Label>
+			</View>
+			<View id="underTop2"></View>
+		</ScrollView>
+	</Window>
+</Alloy>
